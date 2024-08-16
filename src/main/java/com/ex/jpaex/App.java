@@ -51,5 +51,6 @@ public class App {
 	public static void main(String[] args) {
 		SingletonEMF.getFactoryInstance();
 		options();
+		System.out.println("Hey there!");
 	}
 }
